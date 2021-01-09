@@ -2,7 +2,8 @@
 
 #content {
     display: grid;
-    font-family: Yusei-Magic;
+    background-color:  rgba(46, 245, 245, 0.801);
+    font-family:  "Yusei Magic", sans-serif;
 }
 
 .header-1 {
