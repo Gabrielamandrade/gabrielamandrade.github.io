@@ -2,22 +2,24 @@
 
 #content {
     display: grid;
-    background-color:  rgba(46, 245, 245, 0.801);
     font-family:  "Yusei Magic", sans-serif;
+    text-align: center;
 }
 
 .header-1 {
-
+    text-align: center;
+    background-color:  rgba(46, 245, 245, 0.801);
 }
 
 img{
     width: 100%;
 }
 .my-picture {
-
+     display: grid;
+     float: right;
 }
 h1 {
-
+    font-family:  "Yusei Magic", sans-serif;
 }
 
 h2 {
@@ -25,5 +27,5 @@ h2 {
 }
 
 p {
-
+    text-align: center;
 }
