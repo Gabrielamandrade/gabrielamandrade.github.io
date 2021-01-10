@@ -1,48 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-    header {
-    background-color:  rgba(185, 12, 35, 0.801);
-    font-family:  "Yusei Magic", sans-serif;
+header {
+    background-color: rgba(185, 12, 35, 0.801);
+    font-family: "Yusei Magic", sans-serif;
     height: 100px;
     border-radius: 8px;
     font-size: 28px;
-    text-align:center;
+    text-align: center;
     margin: 15px 0 0 200px;
     width: 930px;
-    
+
 
 }
+
 h1 {
     margin: -10px 0 0 -260px;
 }
+
 h2 {
     border-bottom: 5px solid black;
     margin: 20px 0 0 200px;
     width: 700px;
 }
+
 .my-picture {
-     display: grid;
-     box-shadow: 5px 10px 18px #888888;
-     margin: -100px 0 0 880px;
-     border-block: 5px solid black;
+    display: grid;
+    box-shadow: 5px 10px 18px #888888;
+    margin: -100px 0 0 880px;
+    border-block: 5px solid black;
 
     border-style: solid;
-     width: 22%;
+    width: 22%;
 }
+
 #content {
     max-width: 960px;
     margin: 50px 0 0 10px;
 }
+
 nav ul {
     margin: 5px 300px;
     margin-top: -190px;
-    font-family:  "Yusei Magic", sans-serif;
+    font-family: "Yusei Magic", sans-serif;
     margin-bottom: 15px;
 }
 
 .end-content {
     text-align: center;
-    background-color:  rgba(185, 12, 35, 0.801);
+    background-color: rgba(185, 12, 35, 0.801);
     font-family: sans-serif;
     height: 50px;
     border-radius: 8px;
@@ -50,10 +55,12 @@ nav ul {
     padding: 10px 20px 20px 10px;
     width: 900px;
 }
+
 footer p {
     margin: 10px;
 }
+
 #demo {
     color: lawngreen;
-    
+
 }
