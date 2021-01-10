@@ -1,2 +1,3 @@
-let d = new Date(document.lastModified);
-document.getElementById("demo").innerHTML = "Last Updated:" + + d;
+
+let x = new Date(document.lastModified) 
+document.document.getElementById("demo").innerHTML = x;
