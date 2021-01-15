@@ -1,0 +1,6 @@
+@medium (min-width: 32.5em).{
+
+    .my-picture {
+        display: flex;
+    }
+}

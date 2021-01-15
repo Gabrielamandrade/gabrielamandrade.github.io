@@ -1,0 +1,46 @@
+
+
+header {
+    background-color: rgb(226, 178, 87);
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-self: center;
+    grid-gap: 5px;
+    background-color: rgb(69, 71, 212);
+
+}
+
+
+h1 h2 {
+font-family: 'Architects Daughter', cursive;
+grid-template-columns: g
+}
+p {
+    font-family: 'Amatic SC', cursive;
+}
+
+.my-picture-1 {
+    width: 30%;
+    grid-column: 1/6;
+    border-style: solid red;
+    border-radius: 8px;
+}
+.my-picture-2 {
+    width: 30%;
+    grid-column: 2/4;
+    border-style: solid red;
+    border-radius: 8px;
+}
+.my-picture-3 {
+    width: 30%;
+    grid-column: 3/4;
+    border-style: solid red;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: rgb(226, 178, 87);
+}
