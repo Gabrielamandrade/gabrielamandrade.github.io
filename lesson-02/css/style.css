@@ -34,14 +34,18 @@ h1 {
 h2 {
     background-color:rgb(206, 88, 88); 
 }
+.box-1 {
+    grid-area: 1/4;
+  
+  }
+.box-2 {
+  grid-area: 2/4;
 
-.box-1 .box-2 .box-3 {
-    border: 5px solid #bbb;
-    box-shadow: 5px 10px 18px #888888;
-    width: 300px;
-    border-radius: 8px;
 }
-
+.box-3 {
+    grid-area: 4/4;
+  
+  }
 img {
     width: 100%;
 }
@@ -53,4 +57,5 @@ footer {
     border-radius: 8px;
     width: 1070px;
     margin-left: 150px;
+    text-align: center;
 }
