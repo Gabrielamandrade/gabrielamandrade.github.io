@@ -1,6 +1,4 @@
-@large (max-width: 66em).{
+@media  only screen and (max-width: 66em) {
 
-    h1 h2 {
-        
-    }
+
 }
