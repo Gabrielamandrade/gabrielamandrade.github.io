@@ -1,4 +1,8 @@
-@media  only screen and (max-width: 66em) {
+@media  only screen and (min-width: 848px) {
 
-
+    .container {
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: 1fr;
+    }
+    
 }
