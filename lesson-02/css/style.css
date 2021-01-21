@@ -1,8 +1,5 @@
 body {
-    display: grid;
     background-color: blanchedalmond;
-    max-width: 1000px;
-    float: left;
 }
 
 .container {
@@ -14,8 +11,8 @@ header {
     text-align: center;
     font-family: "Architects Daughter", cursive;
     color: rgb(33, 81, 114, 0.719);
-    margin-left: 80px;
-    margin-right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 25px;
 }
 
@@ -32,9 +29,9 @@ article {
     border-radius: 8px;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 5px #999;
-    margin-left: 80px;
-    float: right;
-
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h2 {
@@ -42,30 +39,25 @@ h2 {
     color: rgb(211, 211, 250);
     font-family: "Architects Daughter", cursive;
     margin-top: 0;
-    border-radius: 8px;
     text-align: center;
     padding: 5px;
 }
 
 .article-1 {
-    grid-area: 3/1;
-    height: 99.4%;
+    height: 98%;
     border-radius: 8px;
-    width: 333.33px;
+    width: 400px auto;
 }
-
 .article-2 {
-    grid-area: 3/2;
-    height: 99.4%;
+    height: 98%;
     border-radius: 8px;
-    width: 333.33px;
+    width: 400px auto;
 }
 
 .article-3 {
-    grid-area: 3/3;
-    height: 99.4%;
+    height: 98%;
     border-radius: 8px;
-    width: 333.33px;
+    width: 400px auto;
 }
 
 img {
@@ -83,6 +75,6 @@ footer {
     border-radius: 8px;
     text-align: center;
     padding: 5px;
-    margin-right: 0px;
-    margin-left: 80px
+    margin-right: 20px;
+    margin-left: 20px
 }
