@@ -7,7 +7,6 @@ body {
 
 .container {
     display: grid;
-    grid-column-gap: repeat(6, 1fr);
     margin: 0 auto;
 }
 
@@ -17,6 +16,7 @@ header {
     color: rgb(33, 81, 114, 0.719);
     margin-left: 80px;
     margin-right: 0px;
+    font-size: 25px;
 }
 
 .title-1 {
@@ -73,7 +73,7 @@ img {
 }
 
 p {
-    font-family: "Amatic SC", cursive;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 18px;
 }
