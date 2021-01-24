@@ -2,7 +2,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 <body> {
-display: flex;
 
 }
 
@@ -34,6 +33,10 @@ h1 h2 p {
 header {
     background-color: #9DBA9D;
     text-align: center;
+    display: flex;
+	flex-flow: column;
+	align-items: center;
+    justify-content: center; 
 }
 main {
     background-color:#eff7f2; 
@@ -45,15 +48,9 @@ main {
     box-shadow: 5px 5px 5px #999;
     width: 20%;
 }
- header
+
  footer {
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-    justify-content: center;    
- }
- footer {
- background-color:#f7ebe2 ;
+  background-color:#f7ebe2 ;
 text-align: center;
 padding: 5px;
  }
