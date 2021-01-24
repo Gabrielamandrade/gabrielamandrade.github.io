@@ -1,0 +1,59 @@
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<body> {
+display: flex;
+
+}
+
+h1 h2 p {
+    text-align: center;
+}
+
+ nav ul {
+     display: flex;
+     background-color: black;
+     padding: 10px;
+     list-style-type: none;
+     color: #eff7f2;
+     border: 1px solid #ccc;
+     box-shadow: 5px 5px 5px #999;
+ }
+ nav ul li a {
+     display: block;
+ }
+ nav a:link {
+    color: #eff7f2;
+ }
+ nav a:hover {
+    background-color: #FF6699;
+    padding: 10px;
+    margin: 0 auto;
+
+} 
+header {
+    background-color: #9DBA9D;
+    text-align: center;
+}
+main {
+    background-color:#eff7f2; 
+    text-align: center;
+}
+.photo {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #999;
+    width: 20%;
+}
+ header
+ footer {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+    justify-content: center;    
+ }
+ footer {
+ background-color:#f7ebe2 ;
+text-align: center;
+padding: 5px;
+ }
