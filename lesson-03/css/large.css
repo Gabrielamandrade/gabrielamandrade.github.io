@@ -1,4 +1,11 @@
-@media only screen and (min-width: 989px;) {
-   
+@media only screen and (min-width: 940px) {
+     
+    nav ul {
+        display:  flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+     }
+     
     
 }
