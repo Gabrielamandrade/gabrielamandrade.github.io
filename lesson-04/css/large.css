@@ -2,17 +2,18 @@
      
     nav ul li a {
         padding: .6rem 1rem;
+      
     }
     nav button {
         display: none;
     }
-    nav ul {
-        float: center;
+    nav ul li a {
+       
     }
     header p {
-        margin: 0;
+       
     }
-    .logo-icon {
-        float: left;
+    .logo {
+        
     }
 }

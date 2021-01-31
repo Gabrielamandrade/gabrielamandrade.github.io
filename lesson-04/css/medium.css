@@ -16,7 +16,9 @@
     nav button {
         display: none;
     }
-    .logo-icon {
-        float: left;
-    } 
+    nav ul{
+        margin-left: 2%;
+        flex: 1 1 100%;
+    }
+
 }
