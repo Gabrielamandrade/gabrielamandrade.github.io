@@ -7,11 +7,12 @@ body {
 }
 header {
     background-color: #9DBA9D;
-    text-align: center;
+
     
 }
 h1 {
     text-align: center;
+    
 
 }
 header p {
@@ -19,7 +20,7 @@ header p {
     margin: 0;
 }
 .logo{
-    padding: 0;
+    margin-bottom: 1rem;
 }
 nav button {
     margin: .2rem 2%;
