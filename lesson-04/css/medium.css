@@ -16,8 +16,7 @@
     nav button {
         display: none;
     }
-        header .logo {
-
-        }
-       
+    .logo-icon {
+        float: left;
+    } 
 }
