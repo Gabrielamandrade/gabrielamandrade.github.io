@@ -15,10 +15,6 @@ header h1, header p{
     margin: 0;
 }
 
-.logo{
-    margin-bottom: 1rem;
-    flex-direction: row;
-}
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -70,19 +66,19 @@ nav ul.hide {
 /*  ----------------------------------------------------------- */
 main {
     background-color: #b7acac;
-    justify-content: center;
-    
-    
+    justify-content: center; 
+    margin: 10px;   
 }
+
 .hero-image {
     width: 100%;
 }
 main ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    width: 430px;
+    width: 380px;
     background-color: black;
     color: white;
 }
@@ -98,5 +94,4 @@ main img {
 footer {
     background-color:#f7ebe2 ;
     text-align: center;
-    margin: 10px;
 }
