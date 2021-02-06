@@ -16,18 +16,20 @@
 </head>
 
 <body>
-  <div id="content">
  <header>
-  <img class="logo" alt="logo-icon" src="images/icon-1 (1).jpg">
+   <div class="logo">
+  <img alt="logo-icon" src="images/icon-1 (1).jpg">
+   </div>
+  <div class="header-title">
      <h1>Clound Weather</h1> 
-     <p>Come from above, But Felt Inside</p><!--site motto-->
+     <p>Come from above, But Felt Inside</p>
+ </div><!--site motto-->
  </header>
- <script src="js/header.js"></script>
      <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776; Menu</button>
       <ul id="nav-bar" class="hide">
           <li><a href="../lesson-03/index.html" target="_blank">Home</a></li><!--change the values here-->
-          <li><a href="#" target="_blank">Preston</a></li>
+          <li><a class="active" href="#" target="_blank">Preston</a></li>
           <li><a href="#" target="_blank">Soda Springs</a></li>
           <li><a href="#" target="_blank">Fish Haven</a></li>
           <li><a href="#" target="_blank">Storm Center</a></li>
@@ -67,10 +69,11 @@
 
   <div class="end-content">
     <p>&copy; 2021 | Gabriela M. de Andrade | Brazil | BYU-I Online Learning</p>
-    <div id="demo"> <span id="output"></span>.</div>
+    <div id="output"></div>
   </div>
 </footer>
-<script src="js/footer.js"></script>
-   </div>
+   <script src="js/footer.js"></script>
+   <script src="js/toggle.js"></script>
+   <script src="js/header.js"></script>
  </body>
 </html>
