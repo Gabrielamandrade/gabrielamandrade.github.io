@@ -8,9 +8,10 @@
   <meta name="description" content="A Preston Town page">
   <title>Preston Town</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Yusei+Magic&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../lesson-04/css/small.css">
-  <link rel="stylesheet" href="../lesson-04/css/medium.css">
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../lesson-05/css/small.css">
+  <link rel="stylesheet" href="../lesson-05/css/medium.css">
+  <link rel="stylesheet" href="../lesson-05/css/large.css">
+  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 
@@ -21,8 +22,8 @@
      <h1>Clound Weather</h1> 
      <p>Come from above, But Felt Inside</p><!--site motto-->
  </header>
+ <script src="js/header.js"></script>
      <nav class="clearfix">
-       
       <button onclick="toggleMenu()">&#9776; Menu</button>
       <ul id="nav-bar" class="hide">
           <li><a href="../lesson-03/index.html" target="_blank">Home</a></li><!--change the values here-->
@@ -34,45 +35,42 @@
       </ul>
     </nav>     
 <main>
-  <h2>Preston</h2>
+    <h2>Preston</h2>
+    <img class="hero-image" alt="images" src="images/W05 (1).jpg">
 
-  <div id="item-1">
-    <h3>hero images/weather summary</h3>
-    <p></p><!--javascript for the day-->
-  <img alt="" sec="">
-</div>
-  <div id="item-2">
-    <h3>5 day forecast</h3>
-    <p>Monday</p>
-    <img alt="" sec="">
-      <p>Tuesday</p>
-      <img alt="" sec="">
-        <p>Wednessday</p>
-        <img alt="" sec="">
-      <p>Thursday</p>
-      <img alt="" sec="">
-    <p>Friday</p>
-    <img alt="" sec="">
-  </div>
-  <div id="item-2">
-    <h3>article</h3>
-  <p></p>
-</div>
-  <div id="item-3">
-    <h3>the contact information</h3>
-<p>123-1234-1234<br>
-  www.cloundwather.com<p><p>
-</p> <!--icons-->
-  </div>
+    <h2>hero images/weather summary</h2>
+
+  <!------------------------------------------------------------------>
+    <h3>5 Day Forecast</h3>
+<ul>
+    <li><p>Mon</p><img alt="sun-icon" src="images/icon-sun.png">
+    <li><p>Tues</p><img alt="sun-icon" src="images/icon-sun-2.png">
+    <li><p>Wed</p><img alt="clond-sun-icon" src="images/icon-sun-clound.png">
+    <li><p>Thurs</p><img alt="clound-icon" src="images/icon-sunclound.png">
+    <li><p>Fri</p><img alt="clound-icon" src="images/icon-clound.png">
+</ul>     
+  <!--------------------------------------------------------------------->
+
+  
+    <h3>Article</h3>
+       <p></p>
 
 </main>
 <footer>
+
+  <div class="item-4">
+     <h3>Contact Information</h3>
+     <p>123-1234-1234<br>
+        www.cloundwather.com<p>
+          <img class="map-img" alt="map" src="images/OIP (1).jpg">
+  </div>
+
   <div class="end-content">
     <p>&copy; 2021 | Gabriela M. de Andrade | Brazil | BYU-I Online Learning</p>
     <div id="demo"> <span id="output"></span>.</div>
   </div>
 </footer>
-<script src="js/javascript.js"></script>
+<script src="js/footer.js"></script>
    </div>
  </body>
 </html>

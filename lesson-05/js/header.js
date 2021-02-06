@@ -1,0 +1,1 @@
+document.getElementById("output").innerHTML = new Date(3);
