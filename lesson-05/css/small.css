@@ -84,7 +84,8 @@ main ul {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    background-color: black;
+    text-align: center;
+   
     color: white;
 }
 main ul li {
@@ -92,6 +93,17 @@ main ul li {
     padding: .8rem 2%;
     text-decoration: none;
     border: 1px solid black;
+}
+.main-day {
+    background-color: black;
+}
+.summary {
+    border: 1px solid black;
+    background: radial-gradient(#eee, #4567);
+    position: absolute;
+    top: 250px;
+    left: 200px;
+
 }
 main img {
     width: 50px;
