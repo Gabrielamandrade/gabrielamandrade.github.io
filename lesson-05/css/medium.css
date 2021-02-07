@@ -24,21 +24,14 @@
        max-width: 960px;
        margin: 0 auto;
    }
+   main ul {
+       width: 100%;
+   }
    .hero-image {
-    width: 1000px;
     margin: 0 auto;
    }
-   footer .item-4, header .item-5 {
-       display: flex;
-       justify-content:space-around;
-       align-items: row;
-       
-   }
-    .tem-4 {
-        text-align: center;
-        justify-content: right;
+   .item-4 {
+       float: right;
     }
-    .item-5 {
-        justify-content: left;
-    }
+
 }
