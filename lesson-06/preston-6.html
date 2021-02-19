@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Gabriela Magalhães de Andrade">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A Preston Town page">
+  <title>Preston Town</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Yusei+Magic&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../lesson-06/css/small.css">
+  <link rel="stylesheet" href="../lesson-06/css/medium.css">
+  <link rel="stylesheet" href="../lesson-06/css/large.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+  <div id="headerbanner" onclick="main()"></div>
+  <header>
+    <div class="logo">
+      <img alt="logo-icon" src="images/icon-1 (1).jpg">
+    </div>
+    <div class="header-title">
+      <h1>Clound Weather</h1>
+      <p>Come from above, But Felt Inside</p>
+    </div>
+    <!--site motto-->
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="nav-bar" class="hide">
+      <li><a href="../lesson-03/index.html" target="_blank">Home</a></li>
+      <!--change the values here-->
+      <li><a class="active" href="#" target="_blank">Preston</a></li>
+      <li><a href="#" target="_blank">Soda Springs</a></li>
+      <li><a href="#" target="_blank">Fish Haven</a></li>
+      <li><a href="#" target="_blank">Storm Center</a></li>
+      <li><a href="#" target="_blank">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Preston</h2>
+    <img class="hero-image" alt="images" src="images/forest.jpg">
+<div class="summary">
+  <h2>Weather Summary</h2>
+  <p>Currently: Sunny</p>
+  <p>Hight: 60 <span id="tempFInput"></span>°F</p>
+  <p>Wind Chill: <span id="Hightoutput"></span>°F</p>
+  <p>Humidity: 30% </p>
+  <p>Wind Speed: 12 <span id="speedInput"></span>mph</p>
+</div>
+    <!------------------------------------------------------------------>
+    <div class="main-day">
+    <ul>
+      <li>
+        <p>Mon</p><img alt="sun-icon" src="images/icon-sun.png">
+      <li>
+        <p>Tues</p><img alt="sun-icon" src="images/icon-sun-2.png">
+      <li>
+        <p>Wed</p><img alt="clond-sun-icon" src="images/icon-sun-clound.png">
+      <li>
+        <p>Thurs</p><img alt="clound-icon" src="images/icon-sunclound.png">
+      <li>
+        <p>Fri</p><img alt="clound-icon" src="images/icon-clound.png">
+    </ul>
+    </div>
+    <!--------------------------------------------------------------------->
+
+
+    <h3>Article</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit luctus, sociosqu vestibulum semper tempus lobortis varius
+      mus iaculis, leo mi odio tortor a hendrerit mattis. Hac sem platea ultricies parturient montes suspendisse
+      curabitur ante tincidunt, torquent facilisi primis bibendum aliquam cras taciti aenean, ultrices cursus varius
+      natoque scelerisque mauris pellentesque praesent.</p>
+
+    <p>Urna torquent vitae tincidunt senectus ex sodales taciti mus habitasse sed, lobortis id potenti donec turpis
+      viverra egestas vestibulum porta, ut orci aptent felis pretium dolor mattis varius dictum. Metus commodo egestas
+      hac condimentum fermentum augue donec neque platea netus litora tellus eu gravida ligula curae, quam lectus
+      ullamcorper pellentesque velit nisi nisl nibh lacus dui venenatis fames ex integer penatibus.</p>
+
+    <p>Sed ultricies dapibus tempus rhoncus hendrerit, vulputate nisl nulla senectus, felis fusce iaculis a. Enim
+      inceptos pharetra dui sodales facilisis mauris diam habitasse nascetur, nostra imperdiet erat habitant duis
+      feugiat quam blandit, placerat nibh non ante porta hac tristique urna. Fusce velit aliquam erat a odio habitasse
+      semper cras leo vel cubilia rutrum, scelerisque curae ante inceptos ac aenean mollis nibh gravida viverra.</p>
+    <img class="footer-image" alt="weather-sky" src="images/fall.jpg">
+  </main>
+  <footer>
+    <div class="footer-end">
+      <div class="item-4"></div>
+      <h3>Contact Information</h3> 
+      <img class="point" alt="social-media" src="images/point.png"><p>12345 - <p></p>     
+      <img class="email" alt="social-media" src="images/letter.png"><p>123-1234-1234</p>
+      <img class="phone" alt="social-media" src="images/phone.png"><p>www.cloundwather.com<p>
+            <img class="facebook" alt="social-media" src="images/facebook.jpg">
+            <img class="instagram" alt="social-media" src="images/instagram.jpg">
+            <img class="twiter" alt="social-media" src="images/twiter.png">
+      </div>
+      <img class="map" alt="map" src="images/OIP (1).jpg">
+    </div>
+    </div>
+    <div class="end-content">
+      <p>&copy; 2021 | Gabriela M. de Andrade | Brazil | BYU-I Online Learning</p>
+      <div id="output"></div>
+    </div>
+  </footer>
+  <script src="js/footer.js"></script>
+  <script src="js/toggle.js"></script>
+  <script src="js/header.js"></script>
+</body>
+
+</html>
