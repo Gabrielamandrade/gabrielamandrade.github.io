@@ -10,5 +10,5 @@ function main() {
         } else {
             break;
         }
-    } console.log(day);
+    } console.log(days);
 }

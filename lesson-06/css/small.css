@@ -76,6 +76,9 @@ main {
     padding: 10px; 
 }
 
+
+
+
 .hero-image {
  width:100%;
 }
@@ -132,6 +135,4 @@ footer p {
     margin: 0 auto;
 }
 
-.facebook, .instagram, .youtube {
-    max-width: 50px;
-}
+
