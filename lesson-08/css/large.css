@@ -1,0 +1,35 @@
+@media only screen and (min-width: 64rem) {
+
+    nav ul li a {
+        padding: .6rem 1rem;
+      
+    }
+    nav button {
+        display: none;
+    }
+    nav ul li {
+       flex: 1 1 100%;
+    }
+    main {
+       max-width: 1024px;
+       margin: 0 auto;
+    }
+    footer {
+        margin: 0;
+    }
+    .footer-end {
+        float:right;
+    }
+    .container form {
+        display: grid;
+        grid-template-columns: 1fr
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .map{
+        margin-left: 250px;
+        margin-top: 15px;
+    }
+    .item-4{
+        margin-right: 300px;
+    }
+}
