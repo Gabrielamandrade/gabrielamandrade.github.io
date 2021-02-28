@@ -83,7 +83,7 @@ main {
     display: grid;
     grid-gap: 1fr;
 }
-.container form {
+.container form, fieldset {
     display: grid;
     grid-template-columns: 1fr
     grid-template-rows: repeat(6, 1fr);
@@ -91,6 +91,9 @@ main {
 }
 .container input {
     width: 150px;
+}
+fieldset {
+    border: 1px solid #ccc;
 }
 /*------------------------*/
 
