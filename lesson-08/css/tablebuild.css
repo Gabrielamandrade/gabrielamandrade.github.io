@@ -1,15 +1,18 @@
 table, th, td {
-    border: 1px solid gray;
     border-collapse: collapse;
     font-family: Ubuntu, sans-serif;
 }
-th {
+tr {
+    box-shadow: 10px 5px 5px #628ca6;
+}
+th, .special {
     color: white;
     background-color: #628ca6;
 }
 th, td {
     padding: 12px;
-    text-align: center;
+    text-align: center;    
+    border: 1px solid gray;
 }
 .title {
     color: black;
@@ -24,11 +27,14 @@ table {
     font-size: 22px;
     display: flex;
     justify-content: center;
-    box-shadow: #628ca6;
+    
 }
 .blue {
     background-color: #e7f0ed;
 }
 .green {
     background-color: #e7ffed;
+}
+.footer {
+    font-size: 18px;
 }
