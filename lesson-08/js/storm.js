@@ -1,5 +1,5 @@
-function adjustRating(severity) {
-  document.getElementById("severityvalue").innerHTML = severity;
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
 }
 
 

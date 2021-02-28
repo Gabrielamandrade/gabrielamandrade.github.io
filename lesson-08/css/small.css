@@ -95,6 +95,10 @@ main {
 fieldset {
     border: 1px solid #ccc;
 }
+legend {
+    border: 1px solid black;
+    border-radius: 5px gray;
+}
 /*------------------------*/
 
 footer {
