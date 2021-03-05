@@ -7,36 +7,33 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         const cards = document.querySelector(".cards");
-
-        towns.forEach(town => {
+        for (let i = 0; i < towns.length; i++) {
             let card = document.createElement("section");
             let h2 = document.createElement("h2");
             let pimg = document.createElement("img");
             let p1 = document.createElement("p");
             let p2 = document.createElement("p");
             let p3 = document.createElement("p");
-            let p4 = document.createElement("p");
-
-         h2.innerHTML = `${towns.name} <span style="color:blue">${town.lastname}</span>`;
- 
-
-         pimg.setAttribute('src', springfieldtowns.imageurl);
-         pimg.setAttribute("alt", `Springfield ${springfieldtowns.name}`);
-         
-
-        h2.innerHTML = `${towns.name} <span style="">${towns.name}</span>`;
-        pimg.innerHTML = `${towns.photo} <span style="">${towns.photo}</span>`;
-        p1.innerHTML = `${towns.motto} <span style="">${towns.motto}</span>`;
-        p2.innerHTML = `${towns.yearFounded} <span style="">${towns.yearFounded}</span>`;
-        p3.innerHTML = `${towns.currentPopulation} <span style="">${towns.currentPopulation}</span>`;
-        p4.innerHTML = `${towns.averageRainfall} <span style="">${towns.averageRainfall}</span>`;
-        p5.innerHTML = `${towns.events} <span style="">${towns.events}</span>`;
-
-         card.append(h2);
-         cards.append(card);
-         p1.append(p);
-         p2.append(p);
-         p3.append(p);
-         p4.append(p);
-         p5.append(p);
+            let p4 = document.createElement("p"); 
+            let p5 = document.createElement("p");     
+        h2.textContent = `${towns[i].name}`;
+        p1.textContent = `${towns[i].motto}`;
+        p2.textContent = `Founded Year: ${towns[i].yearFounded}`;
+        p3.textContent = `Current Population: ${towns[i].currentPopulation}`;
+        p4.textContent = `Average Rain Fall: ${towns[i].averageRainfall}`;
+        p5.textContent = `Events: ${towns[i].events}`;         
+        pimg.setAttribute('src', towns[i].photo);
+        pimg.setAttribute("alt", `${towns[i].name}`);
+         card.appendChild(h2);
+         card.appendChild(pimg);
+         card.appendChild(p1);
+         card.appendChild(p2);
+         card.appendChild(p3);
+         card.appendChild(p4);
+         card.appendChild(p5);
+         document.querySelector("div.cards").appendChild(card);
+        }
         });
+        //------------------------------------------------------------------------------------------------------------
+
+ 
