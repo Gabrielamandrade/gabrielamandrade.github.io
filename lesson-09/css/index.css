@@ -80,18 +80,27 @@ main div.cards {
     background-color: #b7acac;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    color: blue;
 }
 div.cards section {
     border: 1px solid black;
-    grid-grap: 10PX,
+    background-color: antiquewhite;
+    padding: 10px;
 }
  div.cards section h2 {
-    color: blue;
+   text-align: center;
+}
+div.cards p {
+    grid-area: 2/1;
 }
 div.cards img {
     width: 100%;
+    display: grid;
+    justify-content: end;
+    grid-area: 2/4;
 }
 
 
