@@ -76,8 +76,23 @@ nav ul.hide {
     clear: both;
 }
 /* -------------------------------------*/
-
-
+main div.cards {
+    background-color: #b7acac;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+div.cards section {
+    border: 1px solid black;
+    grid-grap: 10PX,
+}
+ div.cards section h2 {
+    color: blue;
+}
+div.cards img {
+    width: 100%;
+}
 
 
 /*  -------          */
