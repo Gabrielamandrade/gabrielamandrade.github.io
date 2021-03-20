@@ -106,11 +106,13 @@ main ul li {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
-    grid-gap: 1fr;
+    
 }
 .main-day p{
     background-color: black;
     color: #fff;
+    margin-right: 50px;
+    justify-content: center;
 }
 .text p {
     margin-bottom: -320px;
