@@ -102,8 +102,19 @@ main ul li {
     text-decoration: none;
     border: 1px solid black;
 }
+.summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr) auto;
+}
+
 .main-day {
     background-color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.main-day p {
+    color: white;
 }
 .summary {
     border: 1px solid black;

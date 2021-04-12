@@ -9,7 +9,7 @@
   <title>Preston Town</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Yusei+Magic&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" type="text/css" href="css/small.css">
   <link rel="stylesheet" href="../lesson-06/css/medium.css">
   <link rel="stylesheet" href="../lesson-06/css/large.css">
   <link rel="stylesheet" href="../css/normalize.css">
@@ -47,29 +47,25 @@
 <div class="summary">
   <h2>Weather Summary</h2>
   <p>Currently: Sunny</p>
-  <p>Hight: 60 <span id="tempFInput"></span>°F</p>
-  <p>Wind Chill: <span id="Hightoutput"></span>°F</p>
-  <p>Humidity: 30% </p>
-  <p>Wind Speed: 12 <span id="speedInput"></span>mph</p>
+  <p>Hight:</p>
+  <p><span id="tempFInput">60</span>°F</p>
+  <p>Wind Chill:</p>
+  <p><span id="Hightoutput"></span>°F</p>
+  <p>Humidity:</p>
+  <p><span>30</span>%</p>
+  <p>Wind Speed:</p>
+  <p><span id="speedInput">12</span>mph</p>
 </div>
     <!------------------------------------------------------------------>
     <div class="main-day">
-    <ul>
-      <li>
-        <p>Mon</p><img alt="sun-icon" src="images/icon-sun.png">
-      <li>
-        <p>Tues</p><img alt="sun-icon" src="images/icon-sun-2.png">
-      <li>
-        <p>Wed</p><img alt="clond-sun-icon" src="images/icon-sun-clound.png">
-      <li>
-        <p>Thurs</p><img alt="clound-icon" src="images/icon-sunclound.png">
-      <li>
-        <p>Fri</p><img alt="clound-icon" src="images/icon-clound.png">
-    </ul>
-    </div>
-    <!--------------------------------------------------------------------->
-
-
+      <p><span id="dayofweek1"></span> : <span id="forecast1"></span>&deg; F</p>
+      <p><span id="dayofweek2"></span> : <span id="forecast2"></span>&deg; F</p>
+      <p><span id="dayofweek3"></span> : <span id="forecast3"></span>&deg; F</p>
+      <p><span id="dayofweek4"></span> : <span id="forecast4"></span>&deg; F</p>
+      <p><span id="dayofweek5"></span> : <span id="forecast5"></span>&deg; F</p>
+      </div>
+      <!--------------------------------------------------------------------->
+  
     <h3>Article</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit luctus, sociosqu vestibulum semper tempus lobortis varius
       mus iaculis, leo mi odio tortor a hendrerit mattis. Hac sem platea ultricies parturient montes suspendisse
@@ -102,7 +98,7 @@
               <img class="twitter" alt="social-media" src="../lesson-08/data/image/twitter.png">
       </div>
           <!--The div element for the map -->
-    <div id="map" class="map"></div>
+          <img class="map" alt="map" src="../lesson-08/data/image/OIP (1).jpg">
     </div>
     </div>
     <div class="end-content">
@@ -115,11 +111,7 @@
   <script src="../lesson-05/js/toggle.js"></script>
   <script src="../lesson-05/js/header.js"></script>
   <script src="../lesson-07/js/picture.js"></script>
-     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-     <script
-     src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-     async
-   ></script>
+
 </body>
 
 </html>
